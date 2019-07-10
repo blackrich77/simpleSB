@@ -4,10 +4,10 @@ import json, time, random
 
 client = LineClient()
 #client = LineClient(authToken='AUTH TOKEN')
-client.log("Auth Token : " + str(client.authToken))
+client.log("Auth Token : " + str(client.557428291288ea2d61c69b99b71183ef))
 
 channel = LineChannel(client)
-client.log("Channel Access Token : " + str(channel.channelAccessToken))
+client.log("Channel Access Token : " + str(channel.WnHns8zNxsYRlyNnUwowXDkjdwTXliONaCP08us5TdC9M7N2NSm6s/R+I3DvBp7rRbXCF5UO7UT0/1L60Rqndaxbc8wnSUvpiv8QWQd7ZdOS5wCQqsHhFwMWbLFtsioQD4Q8+fy+U7boYPLooAV6eQdB04t89/1O/w1cDnyilFU=))
 
 poll = LinePoll(client)
 
